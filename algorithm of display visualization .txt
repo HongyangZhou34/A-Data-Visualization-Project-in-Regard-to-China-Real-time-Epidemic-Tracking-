@@ -1,0 +1,23 @@
+1. Use package request to acquire data from target url link
+2. Parse the data returned by the link
+	a. Convert the returned data into json data format
+	b. Filter the required data information according to the key-value pairs of the data
+	c. Temporarily save the data in list after acquiring them 
+3. Save the acquired data in csv file 
+	a. Create 2 csv files which can be used to save data 
+	b. Store the data in the list to the corresponding file
+	c. Save the modified data of the file
+4. Create the utility function, displaying the data acquired by csv file
+	a. Read csv file by using Pandas package 
+	b. Create logical functions to complete the logical process of data
+	c. return the data after processing them 
+5. Use flask framework to configure background data interface
+	a. Acquire the data by utilizing the utility function 
+	b. Encapsulate data into json format and return interface
+6. Create HTML page for front-end display 
+7. Create echarts template to display data
+	a. create different echarts template's json file 
+	b. Embed the template into the html page on the front end
+8. Use Ajax to request back end data and fill in the echarts template for data rendering
+	a. Use Ajax to request back end data
+9. Start up flask framework to display visualization.
